@@ -49,7 +49,7 @@ def main():
 
                 # UDP
             elif proto == 17:
-                src_proto, dest_port, length, data = udp_segment(data)
+                src_port, dest_port, length, data = udp_segment(data)
                 print(TAB_1 + 'UDP Segment:')
                 print(TAB_2 + 'Source Port: {}, Destination Port: {}, Length: {}'.format(src_port, dest_port, length))
                 print(TAB_2 + 'Data:')
@@ -61,7 +61,7 @@ def ethernet_frame(data):
     dest_mac, src_mac, proto = struct.unpack('! 6s 6s H', data[:14])
     return get_mac_addr(dest_mac), get_mac_addr(src_mac), socket.htons(proto), data[14:]
 
-# Format mac address to proper readable format
+# Format mac address to a proper readable format
 def get_mac_addr(bytes_addr):
     bytes_str = map('{:02x}'.format, bytes_addr)
     return ':'.join(bytes_str).upper()
@@ -74,7 +74,7 @@ def ipv4_data_packet(data):
     ttl, proto, src, dest = struct.unpack('! 8x B B 2x 4s 4s', data[:20])
     return version, header_length, ttl, proto, ipv4(src), ipv4(dest), data[header_length:]
 
-# Returns properly formatted IPv4 address
+# Returns a properly formatted IPv4 address
 def ipv4(addr):
     return '.'.join(map(str, addr))
 
