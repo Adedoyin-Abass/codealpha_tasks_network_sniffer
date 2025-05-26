@@ -22,7 +22,7 @@ And then indents the output of the code to make it easily readable and understan
 Tools Used
 Vim - Kali Virtual Box
 
-Programming Language Used:
+Programming Language Used
 Python
 
 Usage
