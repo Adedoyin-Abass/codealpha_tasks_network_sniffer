@@ -20,12 +20,15 @@ The script utilizes `socket.socket(socket.AF_PACKET, socket.SOCK_RAW, socket.nto
 And then indents the output of the code to make it easily readable and understandable
 
 Tools Used
+
 Vim - Kali Virtual Box
 
 Programming Language Used
+
 Python
 
 Usage
+
 To run the sniffer, you'll likely need root/administrator privileges as raw sockets require elevated permissions.
 
 On zshell, run sudo python network_sniffer.py
