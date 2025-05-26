@@ -8,11 +8,11 @@ It's designed to capture and parse raw network packets, providing insights into 
 ## Key Features:
 
 * Ethernet Frame Parsing: Extracts destination MAC, source MAC, and EtherType.
-* **IPv4 Packet Decoding: Identifies IP version, header length, TTL, protocol (ICMP, TCP, UDP), source IP, and destination IP.
-* **ICMP Packet Analysis: Displays ICMP type, code, and checksum.
-* **TCP Segment Dissection: Parses source port, destination port, sequence and acknowledgment numbers, and various TCP flags (URG, ACK, PSH, RST, SYN, FIN).
-* **UDP Segment Extraction: Shows source port, destination port, and length.
-* **Hexdump-like Data Representation: Formats raw packet data for easy readability.
+* IPv4 Packet Decoding: Identifies IP version, header length, TTL, protocol (ICMP, TCP, UDP), source IP, and destination IP.
+* ICMP Packet Analysis: Displays ICMP type, code, and checksum.
+* TCP Segment Dissection: Parses source port, destination port, sequence and acknowledgment numbers, and various TCP flags (URG, ACK, PSH, RST, SYN, FIN).
+* UDP Segment Extraction: Shows source port, destination port, and length.
+* Hexdump-like Data Representation: Formats raw packet data for easy readability.
 
 ## How it Works:
 
