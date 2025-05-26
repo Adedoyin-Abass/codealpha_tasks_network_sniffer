@@ -21,14 +21,14 @@ And then indents the output of the code to make it easily readable and understan
 
 Tools Used:
 
-'Vim' - Kali Virtual Box
+`Vim` - Kali Virtual Box
 
 Programming Language Used:
 
-'Python'
+`Python`
 
 Usage:
 
 To run the sniffer, you'll likely need root/administrator privileges as raw sockets require elevated permissions.
 
-On 'zshell', run 'sudo python network_sniffer.py'
+On `zshell`, run `sudo python network_sniffer.py`
