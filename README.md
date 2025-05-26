@@ -5,7 +5,7 @@ This repository contains a simple yet effective network packet sniffer written i
 This Python script acts like a digital detective, sniffing out and decoding the secrets of your network traffic!
 It's designed to capture and parse raw network packets, providing insights into the different layers of the network stack.
 
-Key Features:
+## Key Features:
 
 * Ethernet Frame Parsing: Extracts destination MAC, source MAC, and EtherType.
 * IPv4 Packet Decoding: Identifies IP version, header length, TTL, protocol (ICMP, TCP, UDP), source IP, and destination IP.
