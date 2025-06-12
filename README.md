@@ -32,3 +32,12 @@ And then indents the output of the code to make it easily readable and understan
 To run the sniffer, you'll likely need root/administrator privileges as raw sockets require elevated permissions.
 
 On `zshell`, run `sudo python network_sniffer.py`
+
+## Contributing
+Feel free to fork this repository, make improvements, and submit pull requests. Any contributions are welcome!
+
+## License
+This project is open source and available under the MIT License.
+
+## Author
+Adedoyin Abass / https://github.com/Ubuntu-Dekiru
