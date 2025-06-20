@@ -40,4 +40,4 @@ Feel free to fork this repository, make improvements, and submit pull requests. 
 This project is open source and available under the MIT License.
 
 ## Author
-Adedoyin Abass / https://github.com/Ubuntu-Dekiru
+Adedoyin Abass / https://github.com/Adedoyin-Abass
